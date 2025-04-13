@@ -5,8 +5,8 @@ from tensorflow.keras import layers, models
 from tensorflow.keras.optimizers import Adam
 
 # Папки для данных
-train_dir = 'dataset/train'
-validation_dir = 'dataset/validation'
+train_dir = 'dataset/apple/train'
+validation_dir = 'dataset/apple/validation'
 
 # Настроим генераторы данных
 train_datagen = ImageDataGenerator(

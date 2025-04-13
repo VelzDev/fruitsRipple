@@ -8,8 +8,8 @@ transform = A.Compose([
     A.Rotate(limit=30, p=0.5)
 ])
 
-input_dir = "dataset/train/overripe/"
-output_dir = "dataset/train/overripe/"
+input_dir = "dataset/banana/train/unripe/"
+output_dir = "dataset/banana/train/unripe/"
 os.makedirs(output_dir, exist_ok=True)
 
 for img_name in os.listdir(input_dir):
